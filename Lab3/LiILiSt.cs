@@ -6,28 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApplication3
-{
-    //public interface IMatrixCheckEmpty<T>
-    //{
-    //    T getEmptyElement();
-    //    bool checkEmptyElement(T element);
-    //}
-    //class FigureMatrixCheckEmpty : IMatrixCheckEmpty<GeoFig>
-    //{
-    //    public GeoFig getEmptyElement()
-    //    {
-    //        return null;
-    //    }
-    //    public bool checkEmptyElement(GeoFig element)
-    //    {
-    //        bool Result = false;
-    //        if (element == null)
-    //        {
-    //            Result = true;
-    //        }
-    //        return Result;
-    //    }
-    //}
+{   
     public class Matrix<T>
     {
         Dictionary<string, T> _matrix = new Dictionary<string, T>();
