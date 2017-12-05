@@ -26,7 +26,7 @@ namespace Delegates
 
         static void Main(string[] args)
         {
-            Console.WriteLine("i = 2");
+            Console.WriteLine("i = 6");
             Console.WriteLine("j = 3");
             int i = 6, j = 3;
             string str1 = "Умножение: ";
